@@ -220,7 +220,20 @@ and ( max-width: 768px ) {
 
     .margin-right{
         margin-right: 1%;
-    } 
+    }
+
+    .nav{
+        justify-content: space-around;
+    }
+
+    .nav span{
+        flex-basis: 20%;
+        
+    }
+    
+    .box-card-rt{
+        margin-bottom: 30%;
+    }
     
 }
     
@@ -229,13 +242,12 @@ and ( max-width: 768px ) {
 @media screen 
 and ( min-width: 769px ) {
 
+
     .card{
-        flex-basis: 16%;    
+        flex-basis: 15%; 
+        margin-left: 1%;  
     }
 
-    main{
-        height: 90vh;
-    }
 
     .flex-start{
         justify-content: flex-start;    
@@ -243,7 +255,21 @@ and ( min-width: 769px ) {
 
     .margin-right{
         margin-right: 1%;
-    }   
+    } 
+
+    .nav{
+        justify-content: space-around;
+        justify-content: center;
+    }
+
+    .nav span{
+        flex-basis: 15%;
+        
+    }
+    
+    .box-card-rt{
+        margin-bottom: 20%;
+    }
    
 }
     
