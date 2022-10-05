@@ -77,7 +77,7 @@ body{
 
 /* header */
 header{
-    width: 10%;
+    width: 7%;
     height: 90vh;
 }
 
@@ -97,7 +97,7 @@ header{
 /* main */
 main{
     background-color: rgba(20,25,34,255); 
-    width: 90%;
+    width: 93%;
     position: absolute;
     top: 40px;
     right: 0;
@@ -207,7 +207,25 @@ footer{
 
 /* media query */
 @media screen 
-and ( min-width: 426px )
+and ( min-width: 376px )
+and ( max-width: 425px ) {
+    
+    header{
+        width: 20%;
+    }
+
+    main{
+        width: 80%;
+    }
+
+    
+    
+}
+
+
+
+@media screen 
+and ( min-width: 425px )
 and ( max-width: 768px ) {
 
     .card{
@@ -241,6 +259,14 @@ and ( max-width: 768px ) {
 
 @media screen 
 and ( min-width: 769px ) {
+
+    header{
+        width: 20%;
+    }
+
+    main{
+        width: 80%;
+    }
 
 
     .card{
