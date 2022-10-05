@@ -11,19 +11,40 @@
 .column{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 .flex{
     display: flex;
+ }
+
+.wrap{
+    flex-wrap: wrap;
+ }
+
+ .between{
     justify-content: space-between;
+ }
+
+ .margin-card{
+    margin-left: 1% ;
+ }
+
+.margin-main{
+    margin: 20px 0;
 }
 
-.fixed{
+ .fixed-h{
     position: fixed;
-    width: 100%;
     z-index: 1;
-    top: 0;   
-}
+
+} 
+
+.fixed-w{
+    position: fixed;
+    z-index: 1;
+
+} 
 
 
 
@@ -33,20 +54,34 @@
     height: 100vh;
     margin: auto;
     background-color: rgb(81, 76, 76);
+    
 }
 
-.conteiner {   
-    height: 80%;
-}
+
+
+
 
 
 
 
 /* header */
 header{
-    flex-basis: 20%;
-    background-color: white;
-    height: 80%;    
+    width: 20vw;
+    background-color: rgb(181, 44, 44);
+    height: 90vh;
+    
+}
+
+.logo, .home , .cerca,.libreria, .installa{
+    flex-basis: 9%;
+    background-color: azure;
+    margin: 0px 20px;
+}
+
+.playlist{
+    flex-basis: 40%;
+    background-color: azure;
+    margin: 0px 20px;
 }
 
 
@@ -54,10 +89,99 @@ header{
 
 /* main */
 main{
-    flex-basis: 79%;
-    background-color: brown;
-    height: 80%;
+    background-color: rgb(61, 60, 114);
+    height: 90vh; 
+    width: 80%;
+    position: relative;
+    top: 0;
+    right: 0;
+    
 }
+
+.upgrade{
+    flex-basis: 10%;
+    background-color: aqua;
+    height: 30px;
+    width: 80%;
+    top: 0;
+    right: 0;
+    
+}
+
+.nav{
+    flex-basis: 5%;
+    background-color: beige;
+    height: 30px;
+    
+
+}
+
+.box-card{
+    background-color: brown;
+    flex-basis: 20%;
+    height: 300px;
+    
+}
+
+.card{
+    flex-basis: 16%;
+    background-color: beige;
+}
+
+
+
+.box-card-rt{
+    background-color: rgb(58, 165, 42);
+    flex-basis: 20%;
+    height: 100px;
+    
+
+}
+
+.artisti{
+    flex-basis: 3%;
+    background-color: blueviolet;
+    height: 30px;
+}
+
+
+
+
+
+
+
+
+/* footer */
+footer{
+    height: 20vh;
+    background-color: black;
+    width: 100%;   
+}
+
+.ft-sx{
+    background-color: white;
+    flex-basis: 20%;
+}
+
+.ft-dx{
+    background-color: white;
+    flex-basis: 20%;
+}
+
+.ft-cn{
+    background-color: white;
+    flex-basis: 40%;
+    align-items: center;
+}
+
+.ft-cn-top, .ft-cn-bottom {
+    background-color: rgb(112, 80, 80);
+    flex-basis: 48%;
+    width: 90%;
+    
+}
+
+
 
 
 
