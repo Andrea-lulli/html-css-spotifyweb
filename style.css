@@ -84,16 +84,19 @@ header{
     
 }
 
-.logo, .home , .cerca,.libreria{
-    margin: 0px 2px;    
+.logo, .home , .cerca,{
+    margin: 0px 2px;
+    flex-basis: 4%;    
 }
 
 .libreria{
+    flex-basis: 80%;
 
 }
 
-.playlist , .libreria{
-    margin: 0px 2px;   
+.playlist , .installa{
+    margin: 0px 2px;
+    flex-basis: 4%;   
 }
 
 
