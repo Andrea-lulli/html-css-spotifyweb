@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+
+
+/* utility */
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.fixed{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;   
+}
+
+
+
+
+/* spotify */
+.spotify{
+    height: 100vh;
+    margin: auto;
+    background-color: rgb(81, 76, 76);
+}
+
+.conteiner {   
+    height: 80%;
+}
+
+
+
+
+/* header */
+header{
+    flex-basis: 20%;
+    background-color: white;
+    height: 80%;    
+}
+
+
+
+
+/* main */
+main{
+    flex-basis: 79%;
+    background-color: brown;
+    height: 80%;
+}
+
+
+
+
+
+
+/* media query */
+@media screen 
+and ( min-width: 426px )
+and ( max-width: 768px ) {
+
+    
+}
+    
+
+
+@media screen 
+and ( min-width: 769px ) {
+    
+   
+}
+    
