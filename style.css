@@ -85,19 +85,22 @@ header{
     padding: 5px 5px;    
 }
 
-.logo, .home , .cerca,{
+.logo, .home , .cerca{
     margin: 0px 2px;
-    flex-basis: 4%;    
+    flex-basis: 4%;
+    cursor: pointer;   
 }
 
 .libreria{
     flex-basis: 80%;
+    cursor: pointer;
 }
 
 .installa {
     flex-basis: 8%;
     justify-content: center;
-    align-items: center;   
+    align-items: center;
+    cursor: pointer;   
 }
 
 .img-header, .img-spotify{
@@ -151,6 +154,7 @@ main{
     background-color: rgba(0,0,0,0.5);
     color: white;
     margin: 5px 0px;
+    cursor: pointer;
 }
 
 .nav{
@@ -164,6 +168,7 @@ main{
     color:rgba(121,124,128,255) ;
     font-weight:900;
     margin: 10px 0;
+    cursor: pointer;
 }
 
 .podcast {
@@ -227,6 +232,7 @@ footer{
     fill:rgba(121,124,128,255) ;
     width: 12px;
     text-align: center;
+    cursor: pointer;
 }
 
 .titolo-ft{
@@ -243,6 +249,7 @@ footer{
 .svg-ft-dx{
     flex-basis: 10%;
     align-items: center;
+    cursor: pointer;
 }
 
 .volume-ft-dx{
@@ -253,12 +260,14 @@ footer{
     fill: white;
     width: 12px;
     text-align: center;
+    cursor: pointer;
 }
 
 .svg-white-play{
     fill: white;
     width: 24px;
     text-align: center;
+    cursor: pointer;
 }
 
 .hr-white{
