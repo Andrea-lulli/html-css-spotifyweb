@@ -6,10 +6,7 @@
 
 body{
     background-color: rgba(0,0,0,255);
-
 }
-
-
 
 
 /* utility */
@@ -122,6 +119,10 @@ header{
     display: none;
 }
 
+.playlist div:hover, .installa span:hover, .libreria span:hover, .cerca span:hover{
+    color: white;
+}
+
 
 /* main */
 main{
@@ -177,6 +178,10 @@ main{
     text-align: center;
 }
 
+.evidenza{
+    border-bottom: 2px  solid greenyellow;
+}
+
 .nav span:hover{
     color: white;
 
@@ -215,13 +220,17 @@ main{
     top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
-    background-color: rgba(11, 11, 11, 0.2);
+    background-color: rgba(11, 11, 11, 0.5);
     height: 100%;
     fill: white;
     padding: 35% 35%;
     
 
     
+}
+
+.play-card-rt{
+    border-radius: 50%;
 }
 
 
@@ -299,6 +308,10 @@ footer{
     cursor: pointer;
 }
 
+.svg-white:hover{
+    width: 14px;
+}
+
 .svg-white-play{
     fill: white;
     width: 24px;
@@ -336,6 +349,19 @@ footer{
     flex-basis: 20%;
     align-items: center;
     justify-content: center;
+}
+
+.svg-footer:hover{
+    fill: white;
+}
+
+.brano:hover, .footer-name:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+.svg-white-play:hover{
+    width: 26px;
 }
 
 
@@ -448,7 +474,11 @@ and ( max-width: 425px ) {
 
     .nav span{
         flex-basis: 26%;       
-    }    
+    }
+    
+    .footer-none{
+        display: none;
+    }
 }
 
 
@@ -626,14 +656,30 @@ and ( max-width: 768px ) {
         width:15px ;
     }
 
+    .svg-white:hover{
+        width: 17px;
+    }
+
     .svg-white-play{
         width:35px ;
+    }
+
+    .svg-white-play:hover{
+        width: 37px;
+    }
+
+    .svg-white-play:hover{
+        width: 37px;
     }
 
     .img-brano img{
         width: 50%;
         margin: 0px 3px;   
-    }    
+    }
+    
+    .footer-none{
+        display: none;
+    }
 }
     
 
@@ -813,13 +859,25 @@ and ( min-width: 769px ) {
         width:15px ;
     }
 
+    .svg-white:hover{
+        width: 17px;
+    }
+
     .svg-white-play{
         width:35px ;
+    }
+
+    .svg-white-play:hover{
+        width: 37px;
     }
 
     .img-brano img{
         width: 50%;
         margin: 0px 3px;    
+    }
+
+    .footer-none{
+        display: none;
     }
 }
 
