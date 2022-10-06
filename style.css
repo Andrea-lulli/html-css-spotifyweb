@@ -67,6 +67,10 @@ body{
     border-radius: 50%;
 }
 
+.card-margin{
+    margin-left: 2%;
+}
+
 
 /* spotify */
 .spotify{
@@ -185,7 +189,6 @@ main{
 
 .card{
     flex-basis: 49%;
-    margin: 10px 0;
     text-align: center;
 }
 
@@ -285,6 +288,7 @@ footer{
 
 .ft-cn{
     flex-basis: 40%;
+    justify-content: center;
     
 }
 
@@ -576,9 +580,17 @@ and ( max-width: 768px ) {
         font-size: 12px;
         
     }
+
+    .box-card{
+        justify-content: flex-start;
+    }
     
     .box-card-rt{
         margin-bottom: 30%;
+    }
+
+    .card-margin, .margin-lg{
+        margin-left: 1%;
     }
 
 
@@ -640,7 +652,7 @@ and ( min-width: 769px ) {
     }
 
     .img-header{
-        width: 30px;
+        width: 22px;
     }
 
     .img-playlist{
@@ -656,7 +668,7 @@ and ( min-width: 769px ) {
     }
 
     .img-spotify{
-        width: 40px;
+        width: 30px;
         margin: 0px 3px 0 3px ;
     }
 
@@ -691,9 +703,9 @@ and ( min-width: 769px ) {
     }
 
     .testo-header{
-        font-size: 17px;
+        font-size: 14px;
         color:rgba(121,124,128,255) ;
-        margin: 15px 0;
+        margin: 14px 0;
     }
 
     .titolo-playlist{
@@ -704,18 +716,18 @@ and ( min-width: 769px ) {
 
     .testo-home{
         color: white;
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .testo-spotify{
         color: white;
-        font-size: 25px;
+        font-size: 20px;
 
     }
 
     .testo-cerca{
         color: rgba(121,124,128,255);
-        font-size: 14px;
+        font-size: 12px;
 
     }
 
@@ -725,7 +737,7 @@ and ( min-width: 769px ) {
 
     .img-profile, .img-download{
         margin: 2px 3px 2px 0;
-        width: 30px;
+        width: 20px;
     }
     .profile{
         align-items: center;
@@ -774,6 +786,10 @@ and ( min-width: 769px ) {
         flex-basis: 15%;
         font-size: 13px;
         
+    }
+
+    .card-margin{
+        margin-left: 2%;
     }
     
     .box-card-rt{
