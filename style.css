@@ -100,10 +100,7 @@ header{
     align-items: center;   
 }
 
-.download{
-
-}
-.img-header{
+.img-header, .img-spotify{
     width: 20px;
 }
 
@@ -126,6 +123,7 @@ header{
 }
 
 
+
 /* main */
 main{
     background-color: rgba(20,25,34,255); 
@@ -133,7 +131,8 @@ main{
     position: absolute;
     top: 40px;
     right: 0;
-    padding: 0 3%;    
+    padding: 3% 3% 3% 3%; 
+       
 }
 
 .upgrade{
@@ -226,6 +225,7 @@ footer{
 .img-brano img{
     width: 70%;
     margin: 0px 3px;
+    
     
 }
 
@@ -335,22 +335,49 @@ and ( max-width: 425px ) {
 
     .logo, .home, .cerca, .installa{
         flex-basis: 4%;
-        margin: 5px 0;
+        margin: 5px 4px 5px 0;
+        display: flex;
+        align-items: center;
     
+    }
+
+    .img-spotify{
+        width: 28px;
+        margin: 0px 3px 0 3px ;
     }
 
     .libreria{
-        flex-basis: 9%;
+        flex-basis: 4%;
+        display: flex;
+        align-items: center;
+        margin: 0 0 5px 0;
     }
     
     .playlist {
-
+        justify-content: center;
         flex-basis: 75%
         
     }
 
+    .crea-pl{
+        align-items: center;
+        display: flex;
+    }
+
+    .svg-playlist{
+        width: 32px;
+        fill:rgba(121,124,128,255) ;
+        margin: 0 3px 0 0;
+    }
+
+    .profile{
+        border-top: 1px solid rgba(121,124,128,255) ;
+        width: 100%;
+        padding: 2px 0 0 0;
+    }
+
     .testo-header{
-        font-size: 10px;
+        font-size: 12px;
         color:rgba(121,124,128,255) ;
         margin: 5px 0;
     }
@@ -368,8 +395,31 @@ and ( max-width: 425px ) {
 
     .testo-spotify{
         color: white;
-        font-size: 16px;
+        font-size: 18px;
 
+    }
+
+    .testo-cerca{
+        color: rgba(121,124,128,255);
+        font-size: 14px;
+
+    }
+
+    .installa{
+        align-items: flex-start;   
+    }
+
+    .img-profile, .img-download{
+        margin: 2px 3px 2px 0;
+    }
+
+    .nav{
+        justify-content: space-around;
+    }
+
+    .nav span{
+        flex-basis: 26%;
+        
     }
 
     
@@ -385,12 +435,17 @@ and ( min-width: 426px )
 and ( max-width: 768px ) {
 
     header{
-        width: 20%;
+        width: 25%;
         padding: 15px 15px;
+        
     }
 
     .header-s{
-        display: inline-block;
+        display: block;
+    }
+
+    .img-header{
+        width: 30px;
     }
 
     .img-playlist{
@@ -399,30 +454,57 @@ and ( max-width: 768px ) {
 
     .logo, .home, .cerca, .installa{
         flex-basis: 4%;
-        margin: 5px 0;
+        margin: 5px 4px 5px 0;
+        display: flex;
+        align-items: center;
     
+    }
+
+    .img-spotify{
+        width: 40px;
+        margin: 0px 3px 0 3px ;
     }
 
     .libreria{
-        flex-basis: 9%;
+        flex-basis: 4%;
+        display: flex;
+        align-items: center;
+        margin: 0 0 5px 0;
     }
     
     .playlist {
-
+        justify-content: center;
         flex-basis: 75%
         
     }
 
+    .crea-pl{
+        align-items: center;
+        display: flex;
+    }
+
+    .svg-playlist{
+        width: 32px;
+        fill:rgba(121,124,128,255) ;
+        margin: 0 3px 0 0;
+    }
+
+    .profile{
+        border-top: 1px solid rgba(121,124,128,255) ;
+        width: 100%;
+        padding: 2px 0 0 0;
+    }
+
     .testo-header{
-        font-size: 10px;
+        font-size: 17px;
         color:rgba(121,124,128,255) ;
-        margin: 5px 0;
+        margin: 15px 0;
     }
 
     .titolo-playlist{
         color: white;
         margin: 5px 0;
-        font-size: 12px;
+        font-size: 16px;
     }
 
     .testo-home{
@@ -432,16 +514,45 @@ and ( max-width: 768px ) {
 
     .testo-spotify{
         color: white;
-        font-size: 16px;
+        font-size: 25px;
 
     }
 
+    .testo-cerca{
+        color: rgba(121,124,128,255);
+        font-size: 14px;
+
+    }
+
+    .installa{
+        align-items: flex-start;   
+    }
+
+    .img-profile, .img-download{
+        margin: 2px 3px 2px 0;
+        width: 30px;
+    }
+    .profile{
+        align-items: center;
+    }
+
+
+    
+
     main{
-        width: 80%;
+        width: 75%;
+        
     }
 
     .upgrade{
-        width: 80%;
+        width: 75%;
+        padding: 35px 0;
+    }
+
+    .upgrade button{
+        padding: 10px 15px;
+        font-size: 14px;
+        margin: 0 10px;
     }
 
     .card{
@@ -461,13 +572,55 @@ and ( max-width: 768px ) {
     }
 
     .nav span{
-        flex-basis: 20%;
+        flex-basis: 19%;
+        font-size: 12px;
         
     }
     
     .box-card-rt{
         margin-bottom: 30%;
     }
+
+
+
+    .ft-sx, .ft-dx{
+        flex-basis: 20%;
+    } 
+
+
+    .ft-cn{
+        flex-basis: 25%;
+    }
+
+    
+
+
+    
+    .titolo-ft{
+        font-size: 15px;
+    }
+
+    .svg-footer{
+        width: 15px;
+        margin: 0 5px;
+        display: flex;
+    }
+
+    .svg-white{
+        width:15px ;
+    }
+
+    .svg-white-play{
+        width:35px ;
+    }
+
+    .img-brano img{
+        width: 50%;
+        margin: 0px 3px;
+        
+    }
+
+    
     
 }
     
@@ -477,11 +630,17 @@ and ( max-width: 768px ) {
 and ( min-width: 769px ) {
 
     header{
-        width: 15%;
+        width: 25%;
+        padding: 15px 15px;
+        
     }
 
     .header-s{
-        display: inline-block;
+        display: block;
+    }
+
+    .img-header{
+        width: 30px;
     }
 
     .img-playlist{
@@ -490,30 +649,57 @@ and ( min-width: 769px ) {
 
     .logo, .home, .cerca, .installa{
         flex-basis: 4%;
-        margin: 5px 0;
+        margin: 5px 4px 5px 0;
+        display: flex;
+        align-items: center;
     
+    }
+
+    .img-spotify{
+        width: 40px;
+        margin: 0px 3px 0 3px ;
     }
 
     .libreria{
-        flex-basis: 9%;
+        flex-basis: 4%;
+        display: flex;
+        align-items: center;
+        margin: 0 0 5px 0;
     }
     
     .playlist {
-
+        justify-content: center;
         flex-basis: 75%
         
     }
 
+    .crea-pl{
+        align-items: center;
+        display: flex;
+    }
+
+    .svg-playlist{
+        width: 32px;
+        fill:rgba(121,124,128,255) ;
+        margin: 0 3px 0 0;
+    }
+
+    .profile{
+        border-top: 1px solid rgba(121,124,128,255) ;
+        width: 100%;
+        padding: 2px 0 0 0;
+    }
+
     .testo-header{
-        font-size: 10px;
+        font-size: 17px;
         color:rgba(121,124,128,255) ;
-        margin: 5px 0;
+        margin: 15px 0;
     }
 
     .titolo-playlist{
         color: white;
         margin: 5px 0;
-        font-size: 12px;
+        font-size: 16px;
     }
 
     .testo-home{
@@ -523,16 +709,45 @@ and ( min-width: 769px ) {
 
     .testo-spotify{
         color: white;
-        font-size: 16px;
+        font-size: 25px;
 
     }
 
+    .testo-cerca{
+        color: rgba(121,124,128,255);
+        font-size: 14px;
+
+    }
+
+    .installa{
+        align-items: flex-start;   
+    }
+
+    .img-profile, .img-download{
+        margin: 2px 3px 2px 0;
+        width: 30px;
+    }
+    .profile{
+        align-items: center;
+    }
+
+    
+
     main{
-        width: 85%;
+        width: 75%;
+        margin-bottom: 50px;
+        
     }
 
     .upgrade{
-        width: 85%;
+        width: 75%;
+        padding: 35px 0;
+    }
+
+    .upgrade button{
+        padding: 15px 15px;
+        font-size: 14px;
+        margin: 0 10px;
     }
 
 
@@ -557,12 +772,52 @@ and ( min-width: 769px ) {
 
     .nav span{
         flex-basis: 15%;
+        font-size: 13px;
         
     }
     
     .box-card-rt{
         margin-bottom: 20%;
     }
-   
+
+    .ft-sx, .ft-dx{
+        flex-basis: 20%;
+    } 
+
+
+    .ft-cn{
+        flex-basis: 30%;
+    }
+
+    
+
+
+    
+    .titolo-ft{
+        font-size: 15px;
+    }
+
+    .svg-footer{
+        width: 15px;
+        margin: 0 5px;
+        display: flex;
+    }
+
+    .svg-white{
+        width:15px ;
+    }
+
+    .svg-white-play{
+        width:35px ;
+    }
+
+    .img-brano img{
+        width: 50%;
+        margin: 0px 3px;
+        
+    }
+    
+    
+
 }
     
