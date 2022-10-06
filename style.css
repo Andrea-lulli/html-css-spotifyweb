@@ -16,21 +16,20 @@ body{
 
 .column{
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column;    
 }
 
 .flex{
     display: flex;
- }
+}
 
 .wrap{
     flex-wrap: wrap;
- }
+}
 
 .between{
     justify-content: space-between;
- }
+}
 
 .around{
     justify-content: space-around;
@@ -83,9 +82,7 @@ body{
 header{
     width: 10%;
     height: 90vh;
-    padding: 5px 5px;
-    
-    
+    padding: 5px 5px;    
 }
 
 .logo, .home , .cerca,{
@@ -95,7 +92,6 @@ header{
 
 .libreria{
     flex-basis: 80%;
-
 }
 
 .installa {
@@ -117,15 +113,11 @@ header{
 .img-download{
     width: 14px;
     margin: 4px 0;
-
 }
-
-
 
 .header-s{
     display: none;
 }
-
 
 
 /* main */
@@ -135,8 +127,7 @@ main{
     position: absolute;
     top: 40px;
     right: 0;
-    padding: 3% 3% 3% 3%; 
-       
+    padding: 3% 3% 3% 3%;        
 }
 
 .upgrade{
@@ -166,6 +157,7 @@ main{
     align-items: center;
     justify-content: center;
 }
+
 .nav span{
     flex-basis: 25%;
     font-size: 8px;
@@ -184,7 +176,6 @@ main{
 
 .box-img img{
     width: 100%;
- 
 }
 
 .card{
@@ -198,8 +189,6 @@ main{
     margin-bottom: 60%;
 }
 
-
-
 .artisti{
     flex-basis: 3%;
     height: 30px;
@@ -212,8 +201,7 @@ footer{
     background-color: rgba(40,40,40,255);
     width: 100%;
     bottom: 0;  
-    left: 0;
-    
+    left: 0;   
 }
 
 .ft-sx{
@@ -227,9 +215,7 @@ footer{
 
 .img-brano img{
     width: 70%;
-    margin: 0px 3px;
-    
-    
+    margin: 0px 3px;    
 }
 
 .testo-footer{
@@ -251,14 +237,14 @@ footer{
 
 .ft-dx{
     flex-basis: 30%;
-    align-items: center;
-    
+    align-items: center;    
 }
 
 .svg-ft-dx{
     flex-basis: 10%;
     align-items: center;
 }
+
 .volume-ft-dx{
     flex-basis: 50%;
 }
@@ -288,8 +274,7 @@ footer{
 
 .ft-cn{
     flex-basis: 40%;
-    justify-content: center;
-    
+    justify-content: center;    
 }
 
 .ft-cn-top, .ft-cn-bottom {
@@ -307,7 +292,6 @@ footer{
     align-items: center;
     justify-content: center;
 }
-
 
 
 
@@ -342,7 +326,6 @@ and ( max-width: 425px ) {
         margin: 5px 4px 5px 0;
         display: flex;
         align-items: center;
-    
     }
 
     .img-spotify{
@@ -359,8 +342,7 @@ and ( max-width: 425px ) {
     
     .playlist {
         justify-content: center;
-        flex-basis: 75%
-        
+        flex-basis: 75%    
     }
 
     .crea-pl{
@@ -400,13 +382,11 @@ and ( max-width: 425px ) {
     .testo-spotify{
         color: white;
         font-size: 18px;
-
     }
 
     .testo-cerca{
         color: rgba(121,124,128,255);
         font-size: 14px;
-
     }
 
     .installa{
@@ -422,14 +402,8 @@ and ( max-width: 425px ) {
     }
 
     .nav span{
-        flex-basis: 26%;
-        
-    }
-
-    
-
-    
-    
+        flex-basis: 26%;       
+    }    
 }
 
 
@@ -440,8 +414,7 @@ and ( max-width: 768px ) {
 
     header{
         width: 25%;
-        padding: 15px 15px;
-        
+        padding: 15px 15px;    
     }
 
     .header-s{
@@ -461,7 +434,6 @@ and ( max-width: 768px ) {
         margin: 5px 4px 5px 0;
         display: flex;
         align-items: center;
-    
     }
 
     .img-spotify{
@@ -478,8 +450,7 @@ and ( max-width: 768px ) {
     
     .playlist {
         justify-content: center;
-        flex-basis: 75%
-        
+        flex-basis: 75%    
     }
 
     .crea-pl{
@@ -519,13 +490,11 @@ and ( max-width: 768px ) {
     .testo-spotify{
         color: white;
         font-size: 25px;
-
     }
 
     .testo-cerca{
         color: rgba(121,124,128,255);
         font-size: 14px;
-
     }
 
     .installa{
@@ -540,12 +509,8 @@ and ( max-width: 768px ) {
         align-items: center;
     }
 
-
-    
-
     main{
-        width: 75%;
-        
+        width: 75%;   
     }
 
     .upgrade{
@@ -577,8 +542,7 @@ and ( max-width: 768px ) {
 
     .nav span{
         flex-basis: 19%;
-        font-size: 12px;
-        
+        font-size: 12px;    
     }
 
     .box-card{
@@ -592,22 +556,13 @@ and ( max-width: 768px ) {
     .card-margin, .margin-lg{
         margin-left: 1%;
     }
-
-
-
     .ft-sx, .ft-dx{
         flex-basis: 20%;
     } 
-
-
     .ft-cn{
         flex-basis: 25%;
     }
 
-    
-
-
-    
     .titolo-ft{
         font-size: 15px;
     }
@@ -628,12 +583,8 @@ and ( max-width: 768px ) {
 
     .img-brano img{
         width: 50%;
-        margin: 0px 3px;
-        
-    }
-
-    
-    
+        margin: 0px 3px;   
+    }    
 }
     
 
@@ -643,8 +594,7 @@ and ( min-width: 769px ) {
 
     header{
         width: 25%;
-        padding: 15px 15px;
-        
+        padding: 15px 15px;    
     }
 
     .header-s{
@@ -664,7 +614,6 @@ and ( min-width: 769px ) {
         margin: 5px 4px 5px 0;
         display: flex;
         align-items: center;
-    
     }
 
     .img-spotify{
@@ -681,8 +630,7 @@ and ( min-width: 769px ) {
     
     .playlist {
         justify-content: center;
-        flex-basis: 75%
-        
+        flex-basis: 75%   
     }
 
     .crea-pl{
@@ -722,13 +670,11 @@ and ( min-width: 769px ) {
     .testo-spotify{
         color: white;
         font-size: 20px;
-
     }
 
     .testo-cerca{
         color: rgba(121,124,128,255);
         font-size: 12px;
-
     }
 
     .installa{
@@ -743,12 +689,9 @@ and ( min-width: 769px ) {
         align-items: center;
     }
 
-    
-
     main{
         width: 75%;
-        margin-bottom: 50px;
-        
+        margin-bottom: 50px;   
     }
 
     .upgrade{
@@ -761,7 +704,6 @@ and ( min-width: 769px ) {
         font-size: 14px;
         margin: 0 10px;
     }
-
 
     .card{
         flex-basis: 15%; 
@@ -800,15 +742,10 @@ and ( min-width: 769px ) {
         flex-basis: 20%;
     } 
 
-
     .ft-cn{
         flex-basis: 30%;
     }
 
-    
-
-
-    
     .titolo-ft{
         font-size: 15px;
     }
@@ -829,12 +766,8 @@ and ( min-width: 769px ) {
 
     .img-brano img{
         width: 50%;
-        margin: 0px 3px;
-        
+        margin: 0px 3px;    
     }
-    
-    
-
 }
 
     
