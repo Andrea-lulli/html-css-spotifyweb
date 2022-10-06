@@ -194,25 +194,73 @@ footer{
 }
 
 .ft-sx{
-    background-color: white;
-    flex-basis: 20%;
+    flex-basis: 30%;
+    align-items: center;
 }
 
+.img-brano, .nome-brano, .svg-footer{
+    flex-basis: calc(100%/3);
+}
+
+.img-brano img{
+    width: 70%;
+    margin: 0px 3px;
+    
+}
+
+.testo-footer{
+    font-size: 10px;
+    color:rgba(121,124,128,255) ;
+}
+
+.svg-footer{
+    fill:rgba(121,124,128,255) ;
+    width: 12px;
+    text-align: center;
+}
+
+.titolo-ft{
+    color: white;
+    font-size: 11px;
+}
+
+
 .ft-dx{
-    background-color: white;
-    flex-basis: 20%;
+    flex-basis: 30%;
+    align-items: center;
+    
+}
+
+.svg-ft-dx{
+    flex-basis: 10%;
+    align-items: center;
+}
+.volume-ft-dx{
+    flex-basis: 50%;
+}
+
+.svg-white{
+    fill: white;
+    width: 12px;
+    text-align: center;
+}
+
+.hr-white{
+    fill: white;
 }
 
 .ft-cn{
-    background-color: white;
     flex-basis: 40%;
     align-items: center;
 }
 
 .ft-cn-top, .ft-cn-bottom {
-    background-color: rgb(112, 80, 80);
-    flex-basis: 48%;
-    width: 90%;    
+    flex-basis: 48%;   
+}
+
+.svg-ft-cn{
+    flex-basis: 18%;
+    align-items: center;
 }
 
 
