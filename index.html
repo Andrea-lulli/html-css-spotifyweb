@@ -15,7 +15,7 @@
         
 
             <!-- header laterale -->
-            <header class="column flex fixed-h">
+            <header class="column flex  between fixed-h">
                 <div class="logo">
                     <img class="img-header" src="./img/logo-small.svg" alt="">
                     <span class="header-s testo-spotify">Spotify</span>
@@ -25,14 +25,14 @@
                     <span class="header-s  testo-home">Home</span>
                 </div>
                 <div class="cerca">
-                    <img  class="img-header"src="./img/search.svg" alt="">
+                    <img  class="img-header img-color"src="./img/search.svg" alt="">
                     <span class="header-s  testo-home">Cerca</span>
                 </div>
                 <div class="libreria">
                     <img class="img-header" src="./img/libreria.svg" alt="">
                     <span class="header-s testo-header">La tua Libreria</span>
                 </div>
-                <div class="playlist  column">
+                <div class="playlist header-s  column">
                     <spam class="header-s titolo-playlist">PLAYLIST</spam>
                     <div class="header-s testo-header"> <img class="img-header" src="./img/home.svg" alt=""> Crea Playlist</div>
                     <div class="header-s testo-header">Nome Playlist</div>
@@ -42,14 +42,16 @@
                     <div class="header-s testo-header">Nome Playlist</div>
                     <div class="header-s testo-header">Nome Playlist</div>
                 </div>
-                <div class="installa">
-                    <div>
-                    <img class="img-header" src="./img/download.svg" alt="">
-                    <span class="testo-header">Installa App</span>
+                
+                <div class="installa column ">
+                    <div class="flex download">
+                    <img class="img-download" src="./img/download.svg" alt="">
+                    <span class=" header-s testo-header">Installa App</span>
                     </div>
-                    <img class="img-header" src="./img/profile.svg" alt="">
-                    <span class="titolo header-s">John Doe</span>
-                </div>
+                    <img class="img-profile" src="./img/profile.svg" alt="">
+                    <span class=" header-s titolo header-s">John Doe</span>
+            
+               </div>
             </header>
 
             <!-- main -->
@@ -62,12 +64,12 @@
 
                 <!-- nav -->
                 <div class="nav margin-main flex around wrap">
-                    <span>IN EVIDENZA</span>
-                    <span class="podcast">PODCAST</span>
-                    <span>CLASSIFICHE</span>
-                    <span>GENERI E MOOD</span>
-                    <span>NUOVE USCITE</span>
-                    <span>SCOPRI</span>
+                    <span >IN EVIDENZA</span>
+                    <span >PODCAST</span>
+                    <span >CLASSIFICHE</span>
+                    <span >GENERI E MOOD</span>
+                    <span >NUOVE USCITE</span>
+                    <span >SCOPRI</span>
                 </div>
 
                 <!-- artisti 1 -->
@@ -215,25 +217,29 @@
                     </div>
                 </div>
             </div>
-            <div class="ft-cn column">
-                <div class="ft-cn-top flex between">
+            <div class="ft-cn column between">
+                <div class="ft-cn-top flex between ">
                     <div class="svg-ft-cn flex">
-                        <svg class="svg-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
+                        <svg class="svg-white"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M403.8 34.4c12-5 25.7-2.2 34.9 6.9l64 64c6 6 9.4 14.1 9.4 22.6s-3.4 16.6-9.4 22.6l-64 64c-9.2 9.2-22.9 11.9-34.9 6.9s-19.8-16.6-19.8-29.6V160H352c-10.1 0-19.6 4.7-25.6 12.8L284 229.3 244 176l31.2-41.6C293.3 110.2 321.8 96 352 96h32V64c0-12.9 7.8-24.6 19.8-29.6zM164 282.7L204 336l-31.2 41.6C154.7 401.8 126.2 416 96 416H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H96c10.1 0 19.6-4.7 25.6-12.8L164 282.7zm274.6 188c-9.2 9.2-22.9 11.9-34.9 6.9s-19.8-16.6-19.8-29.6V416H352c-30.2 0-58.7-14.2-76.8-38.4L121.6 172.8c-6-8.1-15.5-12.8-25.6-12.8H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H96c30.2 0 58.7 14.2 76.8 38.4L326.4 339.2c6 8.1 15.5 12.8 25.6 12.8h32V320c0-12.9 7.8-24.6 19.8-29.6s25.7-2.2 34.9 6.9l64 64c6 6 9.4 14.1 9.4 22.6s-3.4 16.6-9.4 22.6l-64 64z"/></svg>
                     </div>
                     <div class="svg-ft-cn flex">
-                        <svg class="svg-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
-                    </div>
-                    <div class="svg-ft-cn flex">
-                        <svg class="svg-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
+                        <svg class="svg-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M267.5 440.6c9.5 7.9 22.8 9.7 34.1 4.4s18.4-16.6 18.4-29V96c0-12.4-7.2-23.7-18.4-29s-24.5-3.6-34.1 4.4l-192 160L64 241V96c0-17.7-14.3-32-32-32S0 78.3 0 96V416c0 17.7 14.3 32 32 32s32-14.3 32-32V271l11.5 9.6 192 160z"/></svg>
                     </div>
                     <div class="svg-ft-cn-play flex">
-                        <svg class="svg-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
+                        <svg class="svg-white-play" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M188.3 147.1C195.8 142.8 205.1 142.1 212.5 147.5L356.5 235.5C363.6 239.9 368 247.6 368 256C368 264.4 363.6 272.1 356.5 276.5L212.5 364.5C205.1 369 195.8 369.2 188.3 364.9C180.7 360.7 176 352.7 176 344V167.1C176 159.3 180.7 151.3 188.3 147.1V147.1zM512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256zM256 48C141.1 48 48 141.1 48 256C48 370.9 141.1 464 256 464C370.9 464 464 370.9 464 256C464 141.1 370.9 48 256 48z"/></svg>
                     </div>
                     <div class="svg-ft-cn flex">
-                        <svg class="svg-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
+                        <svg class="svg-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M52.5 440.6c-9.5 7.9-22.8 9.7-34.1 4.4S0 428.4 0 416V96C0 83.6 7.2 72.3 18.4 67s24.5-3.6 34.1 4.4l192 160L256 241V96c0-17.7 14.3-32 32-32s32 14.3 32 32V416c0 17.7-14.3 32-32 32s-32-14.3-32-32V271l-11.5 9.6-192 160z"/></svg>
+                    </div>
+                    <div class="svg-ft-cn flex">
+                        <svg class="svg-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M463.5 224H472c13.3 0 24-10.7 24-24V72c0-9.7-5.8-18.5-14.8-22.2s-19.3-1.7-26.2 5.2L413.4 96.6c-87.6-86.5-228.7-86.2-315.8 1c-87.5 87.5-87.5 229.3 0 316.8s229.3 87.5 316.8 0c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0c-62.5 62.5-163.8 62.5-226.3 0s-62.5-163.8 0-226.3c62.2-62.2 162.7-62.5 225.3-1L327 183c-6.9 6.9-8.9 17.2-5.2 26.2s12.5 14.8 22.2 14.8H463.5z"/></svg>
                     </div>
                 </div>
-                <div class="ft-cn-bottom"></div>
+                <div class="ft-cn-bottom ">
+                    <span class="titolo-ft">0.25</span>
+                    <span class="titolo-ft">---------------------</span>
+                    <span class="titolo-ft">4.35</span>
+                </div>
             </div>
             <div class="ft-dx flex between">
                 <div class="svg-ft-dx flex">
@@ -248,14 +254,8 @@
                 <div class="volume-ft-dx ">
                     <hr class="hr-white">
                 </div>
-
             </div>
         </footer>
-    </div>
-
-  
-
-   
-    
+    </div>   
 </body>
 </html>

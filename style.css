@@ -94,13 +94,32 @@ header{
 
 }
 
-.playlist , .installa{
-    margin: 0px 2px;
-    flex-basis: 4%;   
+.installa {
+    flex-basis: 8%;
+    justify-content: center;
+    align-items: center;   
+}
+
+.download{
+
 }
 .img-header{
     width: 20px;
 }
+
+.img-profile{
+    width: 16px;
+    background-color:rgba(121,124,128,255) ;
+    border-radius: 50%;
+}
+
+.img-download{
+    width: 14px;
+    margin: 4px 0;
+
+}
+
+
 
 .header-s{
     display: none;
@@ -138,22 +157,24 @@ main{
     background-color: rgba(0,0,0,0.5);
     color: white;
     margin: 5px 0px;
-    
-
-
 }
-
 
 .nav{
-    flex-basis: 5%;
-
+    align-items: center;
+    justify-content: center;
 }
-
 .nav span{
     flex-basis: 25%;
+    font-size: 8px;
+    color:rgba(121,124,128,255) ;
+    font-weight:900;
+    margin: 10px 0;
+}
+
+.podcast {
+    flex-basis: 20%;
     font-size: 9px;
     color:rgba(121,124,128,255) ;
-    margin: 5px 1px;
     font-weight:900;
 }
 
@@ -245,13 +266,26 @@ footer{
     text-align: center;
 }
 
+.svg-white-play{
+    fill: white;
+    width: 24px;
+    text-align: center;
+}
+
 .hr-white{
     fill: white;
+    margin: 0 3px;
+}
+
+.hr-white-bt{
+    fill: white;
+    margin: 0 3px;
+    width: 50%;
 }
 
 .ft-cn{
     flex-basis: 40%;
-    align-items: center;
+    
 }
 
 .ft-cn-top, .ft-cn-bottom {
@@ -259,8 +293,15 @@ footer{
 }
 
 .svg-ft-cn{
-    flex-basis: 18%;
+    flex-basis: 10%;
     align-items: center;
+    justify-content: center;
+}
+
+.svg-ft-cn-play{
+    flex-basis: 20%;
+    align-items: center;
+    justify-content: center;
 }
 
 
