@@ -157,6 +157,11 @@ main{
     cursor: pointer;
 }
 
+.upgrade button:hover{
+    padding: 7px 20px;
+
+}
+
 .nav{
     align-items: center;
     justify-content: center;
@@ -169,6 +174,12 @@ main{
     font-weight:900;
     margin: 10px 0;
     cursor: pointer;
+    text-align: center;
+}
+
+.nav span:hover{
+    color: white;
+
 }
 
 .podcast {
@@ -193,6 +204,31 @@ main{
     height: 100px;
     margin-bottom: 60%;
 }
+
+.box-img{
+   position: relative;
+}
+
+.play-card{
+    display:none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    background-color: rgba(11, 11, 11, 0.2);
+    height: 100%;
+    fill: white;
+    padding: 35% 35%;
+    
+
+    
+}
+
+
+.box-img:hover .play-card{
+    display: block;
+}
+
 
 .artisti{
     flex-basis: 3%;
@@ -533,6 +569,10 @@ and ( max-width: 768px ) {
         margin: 0 10px;
     }
 
+    .upgrade button:hover{
+        padding: 13px 15px;
+    }
+
     .card{
         flex-basis: 24%;
     }
@@ -712,6 +752,10 @@ and ( min-width: 769px ) {
         padding: 15px 15px;
         font-size: 14px;
         margin: 0 10px;
+    }
+
+    .upgrade button:hover{
+        padding: 17px 15px;
     }
 
     .card{
