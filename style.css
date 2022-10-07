@@ -2,7 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box; 
+    font-family: 'Circular Std', sans-serif;
 }
+
+@import url('http://fonts.cdnfonts.com/css/circular-std');
 
 body{
     background-color: rgba(0,0,0,255);
@@ -72,7 +75,8 @@ body{
 .spotify{
     height: 100vh;
     margin: auto;
-    background-color: rgba(0,0,0,255);    
+    background-color: rgba(0,0,0,255);
+    position: relative;    
 }
 
 /* header */
@@ -133,7 +137,7 @@ main{
     position: absolute;
     top: 40px;
     right: 0;
-    padding: 3% 3% 3% 3%;        
+    padding: 3% 3% 3% 3%;       
 }
 
 /* upgrede */
@@ -480,8 +484,9 @@ and ( max-width: 425px ) {
     }
     
     .playlist {
-        justify-content: center;
-        flex-basis: 75%    
+        flex-basis: 75%; 
+        display: flex;
+        flex-direction: column;      
     }
 
     .crea-pl{
@@ -490,7 +495,7 @@ and ( max-width: 425px ) {
     }
 
     .svg-playlist{
-        width: 32px;
+        width: 28px;
         fill:rgba(121,124,128,255) ;
         margin: 0 3px 0 0;
     }
@@ -558,16 +563,20 @@ and ( min-width: 426px )
 and ( max-width: 768px ) {
 
     header{
-        width: 25%;
-        padding: 15px 15px;    
+        width: 30%;
+        padding: 15px 15px;
+    }
+
+    main{
+        width: 70%;
     }
 
     .header-s{
-        display: block;
+        display: inline-block;
     }
 
-    .img-header{
-        width: 30px;
+    .upgrade{
+        width: 70%;
     }
 
     .img-playlist{
@@ -582,7 +591,7 @@ and ( max-width: 768px ) {
     }
 
     .img-spotify{
-        width: 40px;
+        width: 28px;
         margin: 0px 3px 0 3px ;
     }
 
@@ -594,8 +603,9 @@ and ( max-width: 768px ) {
     }
     
     .playlist {
-        justify-content: center;
-        flex-basis: 75%    
+        flex-basis: 75%; 
+        display: flex;
+        flex-direction: column;    
     }
 
     .crea-pl{
@@ -616,15 +626,15 @@ and ( max-width: 768px ) {
     }
 
     .testo-header{
-        font-size: 17px;
+        font-size: 12px;
         color:rgba(121,124,128,255) ;
-        margin: 15px 0;
+        margin: 5px 0;
     }
 
     .titolo-playlist{
         color: white;
         margin: 5px 0;
-        font-size: 16px;
+        font-size: 12px;
     }
 
     .testo-home{
@@ -634,7 +644,7 @@ and ( max-width: 768px ) {
 
     .testo-spotify{
         color: white;
-        font-size: 25px;
+        font-size: 18px;
     }
 
     .testo-cerca{
@@ -648,18 +658,11 @@ and ( max-width: 768px ) {
 
     .img-profile, .img-download{
         margin: 2px 3px 2px 0;
-        width: 30px;
-    }
-    .profile{
-        align-items: center;
     }
 
-    main{
-        width: 75%;   
-    }
 
     .upgrade{
-        width: 75%;
+        width: 70%;
         padding: 35px 0;
     }
 
@@ -950,5 +953,11 @@ and ( min-width: 769px ) {
         display: none;
     }
 }
+
+ 
+
+    
+
+
 
     
