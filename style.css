@@ -299,6 +299,7 @@ footer{
 
 .volume-ft-dx{
     flex-basis: 50%;
+    position: relative;
 }
 
 .svg-white{
@@ -362,6 +363,33 @@ footer{
 
 .svg-white-play:hover{
     width: 26px;
+}
+
+.durata{
+    flex-basis: 15%;
+    text-align: center;
+}
+
+.barra-durata{
+    flex-basis: 68%;
+    border-color:rgba(121,124,128,255);
+    position: relative;
+}
+
+.ft-cn-bottom{
+    align-items: center;
+}
+
+.hr-grigia{
+    border-color:rgba(121,124,128,255);
+}
+
+.hr-bianca{
+position: absolute;
+top: 50%;
+left: 0;
+width: 40%;
+transform: translateY(-50%) ;
 }
 
 
