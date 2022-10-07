@@ -1,11 +1,11 @@
+@import url('http://fonts.cdnfonts.com/css/circular-std');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box; 
     font-family: 'Circular Std', sans-serif;
 }
-
-@import url('http://fonts.cdnfonts.com/css/circular-std');
 
 body{
     background-color: rgba(0,0,0,255);
