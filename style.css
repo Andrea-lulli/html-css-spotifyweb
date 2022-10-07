@@ -381,7 +381,7 @@ footer{
 }
 
 .hr-grigia{
-    border-color:rgba(121,124,128,255);
+    border-color:rgba(121,124,128,255);    
 }
 
 .hr-bianca{
@@ -390,6 +390,21 @@ top: 50%;
 left: 0;
 width: 40%;
 transform: translateY(-50%) ;
+}
+
+.hr-verde{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 40%;
+    transform: translateY(-50%) ;
+}
+
+.barra-durata:hover .hr-verde, .volume-ft-dx:hover .hr-verde{
+    display: block;
+    border-color:rgb(18, 240, 14);
+    cursor: pointer;
 }
 
 
@@ -507,6 +522,8 @@ and ( max-width: 425px ) {
     .footer-none{
         display: none;
     }
+
+
 }
 
 
