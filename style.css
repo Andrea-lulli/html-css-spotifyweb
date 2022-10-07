@@ -367,7 +367,7 @@ footer{
 
 .durata{
     flex-basis: 15%;
-    text-align: center;
+    text-align: center;    
 }
 
 .barra-durata{
@@ -401,10 +401,28 @@ transform: translateY(-50%) ;
     transform: translateY(-50%) ;
 }
 
+.sel-volume{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 38%;
+    transform: translateY(-50%) ;
+    font-size: 50px;
+}
+
+
 .barra-durata:hover .hr-verde, .volume-ft-dx:hover .hr-verde{
     display: block;
     border-color:rgb(18, 240, 14);
+    
+}
+
+.barra-durata:hover .sel-volume, .volume-ft-dx:hover .sel-volume{
+    display: block;
+    color: white;
     cursor: pointer;
+
+    
 }
 
 
