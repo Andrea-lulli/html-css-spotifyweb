@@ -120,8 +120,9 @@ header{
     display: none;
 }
 
-.playlist div:hover, .installa span:hover, .libreria span:hover, .cerca span:hover{
+.playlist div:hover, .installa span:hover, .libreria span:hover, .cerca span:hover , .svg-playlist:hover{
     color: white;
+    fill: white;
 }
 
 
